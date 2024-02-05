@@ -1,0 +1,30 @@
+.filters-wrapper-card{
+    width: 45%;
+    border-radius: 4px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out; 
+}
+
+.filters-wrapper-card-mobile{
+    width: 87%;
+    border-radius: 4px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out; 
+}
+
+.filters-wrapper-card:hover{
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+

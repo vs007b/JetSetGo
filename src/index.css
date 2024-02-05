@@ -1,0 +1,13 @@
+:root {
+  --primary-color: #3498db;
+  --secondary-color: #c3c3c3f2; 
+}
+
+body {
+  margin: 0px;
+  font-family: sans-serif;
+}
+
+.app{
+  padding: 20px;
+}

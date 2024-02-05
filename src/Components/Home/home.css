@@ -1,0 +1,223 @@
+.app-wrapper{
+
+}
+
+.logo-wrapper{
+    padding: 10px;
+}
+
+.search-wrapper-card{
+    border-radius: 4px;
+    padding: 20px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.search-parameters-wrapper{
+    display: flex;
+    width: 100%;
+}
+
+.search-parameters-wrapper-mobile{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.opposite-logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    margin-top: 40px;
+    border-radius: 20px;
+    padding: 4px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out; 
+}
+.opposite-logo-mobile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    margin-top: 40px;
+    border-radius: 20px;
+    padding: 4px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out; 
+    transform: rotate(90deg);
+}
+
+.opposite-logo:hover{
+    cursor: pointer;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.from-input{
+    width: 100%;
+    border-radius: 8px 0px 0px 8px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: start;
+}
+.to-input{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: start;
+}
+.date-input{
+    width: 100%;
+    border-radius: 0px 8px 8px 0px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: start;
+}
+
+.result-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+    width: 100%;
+}
+
+.flight-list-wraper{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.flex-row{
+    display: flex;
+    align-items: center;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.search-parameters{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.input{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.search-button{
+}
+
+.button-wrapper{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.filter-result-wrapper{
+    display: flex;
+    margin-top: 40px;
+    gap: 20px;
+}
+
+.filter-result-wrapper-mobile{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    gap: 20px;
+}
+
+.head{
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+.heading{
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+.value-wrapper{
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+}
+
+.val{
+    font-size: 32px;
+    font-weight: 600;
+    color: var(--secondary-color);
+}
+.value{
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--secondary-color);
+}
+
+.sub-value{
+    font-size: 12px;
+    font-weight: 600;
+    color: #c3c3c3f2;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out; 
+}
+  
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #3498db;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .button:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Optional: Add more styles for focus and active states */
+  .button:focus {
+    outline: none;
+    /* Add focus styles as needed */
+  }
+  
+  .button:active {
+    transform: translateY(2px); /* Add a slight downward movement on click */
+  }

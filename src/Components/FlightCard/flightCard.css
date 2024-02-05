@@ -1,0 +1,101 @@
+.flight-details-wrapper{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out; 
+}
+.flight-details-wrapper-mobile{
+    padding: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+    flex-direction: column;    
+    gap: 20px; 
+}
+
+.flight-details-wrapper:hover{
+    cursor: pointer;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.flight-details-wrapper-mobile:hover{
+    cursor: pointer;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.airline-info{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.airline-info-mobile{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.place-time{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+
+.info-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.airline-name{
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.airline-code{
+    font-weight: 100;
+    font-size: 12px;
+    color: var(--secondary-color);
+}
+
+.time{
+    font-weight: 600;
+    font-size: 16px;
+}
+.price{
+    font-weight: 600;
+    font-size: 20px;
+    padding: 10px;
+}
+.place{
+    font-weight: 100;
+    font-size: 12px;
+}
+
+.airline-icon{
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+    border-radius: 4px;
+}
+
+.price-info{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.price-info-mobile{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+
